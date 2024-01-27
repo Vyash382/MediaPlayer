@@ -1,0 +1,56 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bggrey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+}
+/* For Webkit based browsers (like Chrome, Safari) */
+/* Change width, height, and color as desired */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Background color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Color of the scrollbar thumb */
+    border-radius: 5px;
+  }
+  
+  /* For Firefox */
+  /* Change width, height, and color as desired */
+  /* Firefox supports scrollbar-color and scrollbar-width properties */
+  /* This example sets scrollbar width and color */
+  /* You can modify it based on your preferences */
+  scrollbar-width: thin;
+  scrollbar-color: #666 #333; /* thumb and track colors */
+  
