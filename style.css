@@ -22,6 +22,10 @@ body{
     right: 0;
     caret-color: transparent;
 }
+.nlogo{
+    height: 10%;
+    width: 10%;
+}
 .left{
     width: 25vw;
     padding: 10px;
